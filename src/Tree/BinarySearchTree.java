@@ -36,7 +36,6 @@ public class BinarySearchTree {
         printInOrder(node.left);
         System.out.print(node.data + ",");
         printInOrder(node.right);
-
     }
     public static void main(String args[]){
         System.out.println("tree example");
