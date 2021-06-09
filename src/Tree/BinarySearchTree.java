@@ -1,17 +1,6 @@
 package Tree;
 
 public class BinarySearchTree {
-    //inner Node class
-    class Node {
-        Integer data;
-        Node left;
-        Node right;
-        Node(Integer data) {
-            this.data = data;
-            left = null;
-            right = null;
-        }
-    }
     Node root = null;
     public void add(Integer value) {
         root = addRecursive(root, value);

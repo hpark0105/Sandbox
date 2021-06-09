@@ -48,16 +48,16 @@ class Result {
 }
 
 public class BalancedBrackets {
-    /*
-    Should return back
-        3
-        {[()]}
-        {[(])}
-        {{[[(())]]}}
-        YES
-        NO
-        YES
-     */
+/*
+Should return back
+3
+{[()]}
+{[(])}
+{{[[(())]]}}
+YES
+NO
+YES
+ */
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
