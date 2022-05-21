@@ -33,6 +33,9 @@ function solution(A) {
         }
     }
     // console.log(highestNumber)
+    if(set.size === 0) {
+        return 1
+    }
     for(let i=1; i <= highestNumber; i++) {
         // console.log(i)
         if(!set.has(i)) {
@@ -40,10 +43,8 @@ function solution(A) {
             return i
         }
     }
-    if((A[A.length-1] + 1)<=0) {
-        return 1
-    }
-    return A[A.length-1] + 1
+
+    return highestNumber + 1
 }
 
 
